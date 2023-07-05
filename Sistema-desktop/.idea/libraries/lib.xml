@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/BlackAutoParts - V3/dist/lib/UGLibrary.jar!/" />
+      <root url="jar://$PROJECT_DIR$/BlackAutoParts - V3/dist/lib/commons-lang3-3.12.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/BlackAutoParts - V3/dist/lib/AbsoluteLayout.jar!/" />
+      <root url="jar://$PROJECT_DIR$/BlackAutoParts - V3/dist/lib/iText-5.0.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/BlackAutoParts - V3/dist/lib/mysql-connector-j-8.0.31.jar!/" />
+      <root url="jar://$PROJECT_DIR$/BlackAutoParts - V3/dist/lib/UGComp.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

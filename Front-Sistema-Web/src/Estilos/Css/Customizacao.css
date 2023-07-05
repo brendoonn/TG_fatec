@@ -1,0 +1,223 @@
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.row {
+  display: flex;
+}
+
+.div-box-valores h4 {
+  display: flex;
+  font-weight: bold;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.alinhar-centro {
+  display: flex;
+  justify-content: center;
+}
+
+.alinhar-centro-vertical{
+  display: flex;
+  top: 50%;
+  bottom: 50%;
+}
+
+.retirar-margem {
+  margin: 0 !important;
+}
+
+.titulo-pagina {
+  font-weight: bold;
+  margin-bottom: 0;
+  font-size: 16px;
+}
+
+.botao-adicionar {
+  vertical-align: middle;
+  border-radius: 10px;
+}
+
+.titulo-cards {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.data-grid {
+  height: 600;
+  width: "100%";
+}
+
+.pagina-produto {
+  /* background-color: #9e4bac; */
+  background-color: #6d1b7b;
+  color: #ffffff;
+}
+
+.pagina-usuarios {
+  background-color: #378590;
+  color: #ffffff;
+}
+
+.pagina-vendas {
+  /* background-color: MediumSeaGreen; */
+  background-color: #00695f;
+  color: #ffffff;
+}
+
+.pagina-clientes {
+  /* background-color: DodgerBlue; */
+  background-color: #6573c3  ;
+  color: #ffffff;
+}
+
+.pagina-entrada-estoque {
+  background-color: #ab003c;
+  color: #ffffff;
+}
+
+.pagina-baixa-estoque {
+  background-color: #b22a00;
+  color: #ffffff;
+}
+
+.pagina-fornecedores {
+  background-color: #3f51b5;
+  color: #ffffff;
+}
+
+.botoes-acao {
+  display: flex;
+}
+
+.botoes-acao > div {
+  display: flex;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.botoes-acao > Button {
+  margin-left: 2px;
+}
+
+.espacamento-interno-box {
+  padding: 24px;
+}
+
+.paginacao {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.botao-adicionar {
+  border: 0;
+  border-radius: 25px;
+  box-shadow: rgba(21, 20, 21, 0.2) 0 15px 30px -5px;
+}
+
+.alinhar-fim {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.botao-salvar {
+  border-radius: 10px;
+  color: #136f27;
+}
+
+.botao-cancelar {
+  margin-right: 5px;
+  border-radius: 10px;
+  color: #81100e;
+}
+
+.botao-adicionar,
+.botao-cancelar,
+.botao-salvar {
+  align-items: center;
+  box-sizing: border-box;
+  justify-content: center;
+  display: flex;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 12px;
+  font-size: 16px;
+}
+
+.modal-header {
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 20px;
+}
+
+.informacoes-card {
+  width: 80%;
+}
+
+.header-modal-confirmacao {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.modal-confirmacao {
+  padding-top: 10px;
+  padding-left: 3rem;
+  padding-bottom: 3rem;
+  padding-right: 3rem;
+}
+
+.check-sucesso {
+  color: #136f27;
+}
+
+.check-erro {
+  color: #81100e;
+}
+
+.check-sucesso,
+.check-erro {
+  font-size: 3rem !important;
+}
+
+.div-loading {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  text-align: center;
+}
+
+.alinhar-texto-direita {
+  text-align: end;
+}
+
+.centralizar-texto {
+  text-align: center;
+}
+
+.fim-da-pagina {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  position: absolute;
+}
+
+.texto-secundario {
+  color: #7a7a7a;
+}
+
+.icone-seguranca{
+  font-size: 3rem !important;
+}
+
+
+@media screen and (min-width: 960px) {
+  .titulo-pagina {
+    font-size: 20px;
+  }
+  
+}

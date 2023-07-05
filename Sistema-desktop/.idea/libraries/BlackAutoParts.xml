@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="BlackAutoParts">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/BlackAutoParts - V3/dist/BlackAutoParts.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

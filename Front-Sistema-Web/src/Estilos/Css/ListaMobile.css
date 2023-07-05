@@ -1,0 +1,59 @@
+.card-lista {
+    display: flex;
+    padding: 3px;
+}
+
+.card-lista p{
+    margin: 0;
+}
+
+.codigo-lista {
+   color: #7a7a7a
+}
+
+.adicionar-mobile {
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: 3px;
+}
+
+.icons-acoes {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    display: flex;
+}
+
+.tamanho-icone{
+    font-size: 1.9rem !important;
+}
+
+.usuario-icon{
+    display: flex;
+    justify-content: center;
+}
+
+.cabecalho-lista-mobile{
+    border-top: #7a7a7a 1px solid;
+    border-bottom: #7a7a7a 1px solid;
+    /* background-color: rgb(217, 172, 222); */
+    height: auto;
+    margin-top: 2rem;
+    display: flex;
+    margin-bottom: 0.5rem;
+}
+
+.cabecalho-lista-mobile p{
+    margin: 0.4rem;
+    font-weight: bold;
+    display: flex;
+}
+
+.icons-acoes-usuario{
+    justify-content: flex-end;
+    vertical-align: middle;
+    margin-top: auto;
+    display: flex;
+}

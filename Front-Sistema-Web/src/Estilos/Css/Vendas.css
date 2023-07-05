@@ -1,0 +1,50 @@
+.box-detalhes {
+    border-style: solid;
+    border-color: rgb(194, 193, 193);
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.h4-detalhes-accordion {
+    margin-right: 3px;
+}
+
+.cab-lista-mobile-vendas {
+    border-top: #69856e 1px solid;
+    border-bottom: #69856e 1px solid;
+    height: auto;
+    margin-top: 2rem;
+    display: flex;
+}
+
+.paper-produtos-comprados{
+    border: #d8d8d8 0.5px solid;
+    padding: 1rem;
+}
+
+.lista-nova-compra,
+.lista-nova-venda{
+    border-radius: 4px;
+    box-shadow: 0px 2px 1px -1px rgb(0 0 0 / 20%), 0px 1px 1px 0px rgb(0 0 0 / 14%), 0px 1px 3px 0px rgb(0 0 0 / 12%);
+    width: 100%;
+    overflow-x: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 375px) {
+    .lista-nova-venda{
+        padding: 10px;
+    }
+}
+
+.distancia-lista{
+    margin-top: 3rem;
+}
+
+.check-sucesso-venda{
+    color: #136f27;
+    font-size: 6rem !important;
+}
