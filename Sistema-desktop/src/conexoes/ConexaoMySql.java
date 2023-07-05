@@ -26,12 +26,7 @@ public class ConexaoMySql {
     private Connection con = null;  //variavel para conexao
     private Statement statement;
     private ResultSet resultSet;
-/*
-    private String servidor = "localhost";
-    private String nomeDoBanco = "sigpapelaria";
-    private String usuario = "root";
-    private String senha = "X@laminicov3s";
-*/
+
 
 private String servidor =  "seu servidor";
 private String nomeDoBanco = "nome do seu banco de dados";
